@@ -7,6 +7,6 @@ Devocate is a simple API that list out developers advocates around the world and
 * __/companies/:id__   [https://devocate.herokuapp.com/companies/1](https://devocate.herokuapp.com/companies/1)
 
 # Advocate List
-![alt text](https://github.com/ClintonCode20/devocate/blob/main/store/ad_list.png)
+![alt text](https://github.com/ClintonCode20/devocate/blob/main/shots/ad_list.png)
 
 
