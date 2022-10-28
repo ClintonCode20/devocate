@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-tj_cg9o7r8$z24&evzqr*w)feh4t5^(_nxr=6pakdj7qre%5z7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "devocate.herokuapp.com"]
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    # 'django.contrib.staticfiles',
+    'django.contrib.staticfiles',
     'advocate.apps.AdvocateConfig',
     'rest_framework',
     'corsheaders',
@@ -141,7 +141,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-# STATIC_URL = 'static/'
+STATIC_URL = 'static/'
 
 MEDIA_URL = 'image/'
 
