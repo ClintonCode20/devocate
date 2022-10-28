@@ -12,4 +12,10 @@ Devocate is a simple API that list out developers advocates around the world and
 # Advocate Detail
 ![alt text](https://github.com/ClintonCode20/devocate/blob/main/shots/ad_detail.png)
 
+# Company List
+![alt text](https://github.com/ClintonCode20/devocate/blob/main/shots/com_list.png)
+
+# Company Detail
+![alt text](https://github.com/ClintonCode20/devocate/blob/main/shots/com_detail.png)
+
 
