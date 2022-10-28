@@ -12,6 +12,8 @@ urlpatterns = [
     path("advocates", views.AdvocateList.as_view()),
     path("advocates/<str:username>", views.AdvocateDetail.as_view()),
     path("companies", views.CompanyList.as_view()),
-    path("companies/<str:pk>", views.CompanyDetail.as_view())
+    path("companies/<str:pk>", views.CompanyDetail.as_view()),
+    
+    path("", views.index)
     
 ]

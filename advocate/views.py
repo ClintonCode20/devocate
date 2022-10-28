@@ -10,6 +10,8 @@ from advocate import serializers
 # Create your views here.
 
 
+def index(request):
+    return render(request, "index.html")
 
 class AdvocateList(ListCreateAPIView):
     queryset = Advocate.objects.all()
