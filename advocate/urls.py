@@ -8,12 +8,10 @@ urlpatterns = [
     # path("companies", views.company_list),
     # path("advocates/<str:pk>", views.advocate_detail),
     # path("companies/<str:pk>", views.company_detail)
-    
+    path("", views.index),
     path("advocates", views.AdvocateList.as_view()),
     path("advocates/<str:username>", views.AdvocateDetail.as_view()),
     path("companies", views.CompanyList.as_view()),
-    path("companies/<str:pk>", views.CompanyDetail.as_view()),
-    
-    path("", views.index)
+    path("companies/<str:pk>", views.CompanyDetail.as_view())
     
 ]
