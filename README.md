@@ -1,2 +1,2 @@
-# devocate
-This is a simple API that display developers advocates and their companies
+# Devocate
+Devocate is a simple API that list out developers advocates around the world and the companies they work for
